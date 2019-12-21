@@ -1,0 +1,33 @@
+function New-Function {
+    <#
+        .SYNOPSIS
+        Write summary here
+        .DESCRIPTION
+        Write full description here
+        .EXAMPLE
+        Give an example of how to use it
+        .EXAMPLE
+        Give another example of how to use it
+        .PARAMETER param1
+        Details for param1
+        .PARAMETER param2
+        Details for param2
+    #>
+    [cmdletbinding()]
+    param(
+        [parameter(Mandatory=$true,ValueFromPipeline=$true)]
+        [string]$Param1
+    )
+
+    begin{
+        ...
+    }
+
+    process{
+        ...
+    }
+
+    end{
+        ...
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "Hosts": [
+        {
+            "Host": "XDD70512",
+            "Environment": "dev",
+            "ConnectionString": "XDD70512\\dans2014",
+            "sqlcmd_TableName": "foo",
+            "sqlcmd_SpecialValue": "bar"
+        },
+        {
+            "Host": "someOther",
+            "Environment": "dev",
+            "ConnectionString": "someOther\\foobar"
+        }
+    ] 
+}
